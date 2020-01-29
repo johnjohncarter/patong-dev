@@ -11,6 +11,13 @@
 |
 */
 
+use Illuminate\Support\Facades\Route;
+
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('home');
 });
+
+Route::get('/home', 'HomeController@index');
+Route::get('/search', 'HomeController@index');
+Route::get('/product/{product_id}', 'HomeController@index');
+Route::get('/list-product', 'HomeController@index');
