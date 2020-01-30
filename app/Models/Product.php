@@ -22,6 +22,7 @@ class Product extends Model
         'detail',
         'rating',
         'image_url',
+        'category_id',
     ];
 
     /**
@@ -40,4 +41,8 @@ class Product extends Model
      */
     protected $casts = [
     ];
+
+    public function category () {
+        return $this->hasOne(ProductCategory::class, 'id', 'category_id');
+    }
 }

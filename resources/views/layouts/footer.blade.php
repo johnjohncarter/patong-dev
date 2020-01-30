@@ -1,5 +1,5 @@
 <!--footer start-->
-<footer id="footer" class="footer">
+<footer class="footer">
     <div class="container">
         <div class="hm-footer-copyright">
             <div class="row">

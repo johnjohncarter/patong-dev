@@ -66,10 +66,10 @@
 	.appsLand-btn {position: relative;margin-top: 30px;}
 	.subscription-input-group .subscription-input-form {width: 450px;}
 
-	.footer-menu .navbar-header a.navbar-brand, .footer-menu.footer-menu .navbar-header a.navbar-brand:hover, .footer-menu .navbar-header a.navbar-brand:focus {height: auto;}
-	.footer-social {text-align:left;margin-top: 20px;}
-	.footer-menu ul.footer-menu-item {text-align: left;margin-top: 20px;}
-	.footer-menu ul.footer-menu-item li a {padding-right: 15px;padding-left: 0;margin-bottom: 15px;}
+	/*.footer-menu .navbar-header a.navbar-brand, .footer-menu.footer-menu .navbar-header a.navbar-brand:hover, .footer-menu .navbar-header a.navbar-brand:focus {height: auto;}*/
+	/*.footer-social {text-align:left;margin-top: 20px;}*/
+	/*.footer-menu ul.footer-menu-item {text-align: left;margin-top: 20px;}*/
+	/*.footer-menu ul.footer-menu-item li a {padding-right: 15px;padding-left: 0;margin-bottom: 15px;}*/
 
 }/*max-width:767px*/
 

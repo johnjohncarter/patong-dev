@@ -17,7 +17,10 @@ Route::get('/', function () {
     return redirect('home');
 });
 
-Route::get('/home', 'HomeController@index');
-Route::get('/search', 'HomeController@index');
-Route::get('/product/{product_id}', 'HomeController@index');
-Route::get('/list-product', 'HomeController@index');
+Route::get('home', 'HomeController@index');
+Route::get('search', 'SearchController@index')->name('search');
+Route::post('search', 'SearchController@search');
+Route::get('product/{product_id}', 'ProductController@show');
+Route::get('product-list', 'ProductController@index');
+Route::get('block', 'BlockController@index');
+Route::get('contact', 'ContactController@index');
