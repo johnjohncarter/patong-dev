@@ -77,7 +77,7 @@ class ProductTableSeeder extends Seeder
             ['name_en' => 'ripcurl', 'name_ch' => '里普柯尔', 'name_th' => 'ลี๋ พู เคอ เอ้อ', 'category_id' => 7, 'created_at' => now(), 'updated_at' => now()],
             ['name_en' => 'nike', 'name_ch' => '耐克', 'name_th' => 'น่าย เค่อ', 'category_id' => 7, 'created_at' => now(), 'updated_at' => now()],
             ['name_en' => 'mlb', 'name_ch' => '棒球大联盟', 'name_th' => 'ป่าน ชิ้ว ต้า เลี่ยน เมิ่ง', 'category_id' => 7, 'created_at' => now(), 'updated_at' => now()],
-            ['name_en' => 'addidas', 'name_ch' => '阿迪达斯', 'name_th' => 'อา ดี๋ ด่า ซือ', 'category_id' => 7, 'created_at' => now(), 'updated_at' => now()],
+            ['name_en' => 'adidas', 'name_ch' => '阿迪达斯', 'name_th' => 'อา ดี๋ ด่า ซือ', 'category_id' => 7, 'created_at' => now(), 'updated_at' => now()],
             ['name_en' => 'levi_s', 'name_ch' => '李维斯', 'name_th' => 'หลี่ เหวย ซือ', 'category_id' => 7, 'created_at' => now(), 'updated_at' => now()],
             ['name_en' => 'lee', 'name_ch' => '李', 'name_th' => 'หลี่่', 'category_id' => 7, 'created_at' => now(), 'updated_at' => now()],
             ['name_en' => 'polo', 'name_ch' => '保罗', 'name_th' => 'เปา หลั๋ว', 'category_id' => 7, 'created_at' => now(), 'updated_at' => now()],
