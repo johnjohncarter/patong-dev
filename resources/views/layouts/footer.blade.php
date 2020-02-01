@@ -4,9 +4,9 @@
         <div class="hm-footer-copyright">
             <div class="row">
                 <div class="col-sm-5">
-                    <p>CENTRAL PATONG</p>
+                    <p><strong>CENTRAL PATONG</strong></p>
                     <p>Central Department Store :Patong Branch 198/9 Rat Uthit 200 pi Rd; T.Patong   A.kathu  Phuket 83150</p>
-                    <p>Open Daily 10.30 a.m – 11.00 p.m</p>
+                    <p><strong>Open Daily</strong> 10.30 a.m – 11.00 p.m</p>
                 </div>
                 <div class="col-sm-7">
                     <div class="footer-social">

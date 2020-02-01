@@ -838,6 +838,11 @@ nav.navbar.bootsnav .navbar-toggle i {
     box-shadow: 0 10px 20px rgba(21, 19, 19, .2);
 }
 
+.logo-image {
+    width: 25px;
+    display: inline-block !important;
+}
+
 /*-------------------------------------
         8. Reviews
 --------------------------------------*/
@@ -847,6 +852,11 @@ nav.navbar.bootsnav .navbar-toggle i {
     padding-top: 100px;
     padding-bottom: 25px;
     color: black !important;
+}
+
+.contact-list:hover {
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .reviews-content {

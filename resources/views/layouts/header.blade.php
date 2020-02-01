@@ -12,8 +12,11 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="{{ url('home') }}">Central<span>patong</span></a>
 
+                    <a class="navbar-brand" href="{{ url('home') }}">
+                        <img class="logo-image" src="{{ asset('logo/logo.png') }}">
+                        Central<span>patong</span>
+                    </a>
                 </div><!--/.navbar-header-->
                 <!-- End Header Navigation -->
 
@@ -23,7 +26,7 @@
                         <li class="{{ request()->is('home') || request()->is('search') ? 'active' : '' }}">
                             <a href="{{ url('home') }}">home</a>
                         </li>
-                        <li class="{{ request()->is('product') ? 'active' : '' }}">
+                        <li class="{{ request()->is('product*') ? 'active' : '' }}">
                             <a href="{{ url('product') }}">product</a>
                         </li>
                         <li class="{{ request()->is('contact') ? 'active' : '' }}">

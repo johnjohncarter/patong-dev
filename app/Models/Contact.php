@@ -8,6 +8,7 @@ use Illuminate\Notifications\Notifiable;
 class Contact extends Model
 {
     use Notifiable;
+    protected $table = 'contact';
 
     /**
      * The attributes that are mass assignable.

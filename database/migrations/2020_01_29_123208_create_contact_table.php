@@ -18,8 +18,8 @@ class CreateContactTable extends Migration
             $table->string('name');
             $table->string('surname');
             $table->string('title');
-            $table->text('detail');
-            $table->string('image_url');
+            $table->text('detail')->nullable();
+            $table->string('image_url')->nullable();
             $table->timestamps();
         });
     }
