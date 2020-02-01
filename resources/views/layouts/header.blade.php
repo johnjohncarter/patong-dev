@@ -1,5 +1,5 @@
 <!-- top-area Start -->
-<section class="top-area">
+<section class="top-area" style="position: absolute; z-index: 1000; width: 100%;">
     <div class="header-area">
         <!-- Start Navigation -->
         <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy" data-minus-value-desktop="70"
@@ -23,11 +23,8 @@
                         <li class="{{ request()->is('home') || request()->is('search') ? 'active' : '' }}">
                             <a href="{{ url('home') }}">home</a>
                         </li>
-                        <li class="{{ request()->is('product-list') ? 'active' : '' }}">
-                            <a href="{{ url('product-list') }}">product</a>
-                        </li>
-                        <li class="{{ request()->is('block') ? 'active' : '' }}">
-                            <a href="{{ url('block') }}">block</a>
+                        <li class="{{ request()->is('product') ? 'active' : '' }}">
+                            <a href="{{ url('product') }}">product</a>
                         </li>
                         <li class="{{ request()->is('contact') ? 'active' : '' }}">
                             <a href="{{ url('contact') }}">contact</a>

@@ -21,6 +21,6 @@ Route::get('home', 'HomeController@index');
 Route::get('search', 'SearchController@index')->name('search');
 Route::post('search', 'SearchController@search');
 Route::get('product/{product_id}', 'ProductController@show');
-Route::get('product-list', 'ProductController@index');
+Route::get('product', 'ProductController@index');
 Route::get('block', 'BlockController@index');
 Route::get('contact', 'ContactController@index');

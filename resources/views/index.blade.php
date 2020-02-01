@@ -67,9 +67,10 @@
 
 @include('layouts.header')
 
-    @yield('content')
-
-@include('layouts.footer')
+@yield('content')
+@if (!request()->is('home'))
+    @include('layouts.footer')
+@endif
 
 </body>
 

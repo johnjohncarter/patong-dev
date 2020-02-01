@@ -50,16 +50,6 @@ body {
     overflow-x: hidden;
 }
 
-a, a:hover, a:active, a:focus {
-    display: inline-block;
-    text-decoration: none;
-    color: #343a3f;
-    font-size: 16px;
-    padding: 0;
-    font-weight: 500;
-    text-transform: capitalize;
-}
-
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     color: #343a3f;
@@ -123,10 +113,9 @@ html, body {
 /* font-size: 14px; */
 .search-result-btn {
     color: #fff;
-    width: 170px;
-    height: 57px;
+    width: 100%;
+    padding: 18px;
     text-transform: capitalize;
-    margin-left: 30px;
     border-radius: 3px;
     background-color: #00c61c;
     -webkit-transition: 0.3s linear;
@@ -138,12 +127,28 @@ html, body {
     box-shadow: 0 5px 20px rgba(21, 19, 19, .4);
 }
 
-.search-input-group .subscription-input-form {
+.table-border {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.category-menu {
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.subscription-input-form {
+    padding: 15px 12px;
     display: inline-block;
-    width: 630px;
-    height: 60px;
-    padding-left: 30px;
-    font-size: 16px;
+    width: 100%;
     color: #a5adb3;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -153,11 +158,10 @@ html, body {
     -webkit-transition: 0.3s linear;
     -moz-transition: 0.3s linear;
     -o-transition: 0.3s linear;
-    transition: 0.3s linear;
 }
 
 .subscription-input-form:hover {
-    box-shadow: 0 5px 20px rgba(21, 19, 19, .4);
+box-shadow: 0 5px 20px rgba(21, 19, 19, .4);
 }
 
 /* section-header */
@@ -386,7 +390,13 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .welcome-hero-txt {
-    padding-top: 155px;
+    padding-top: 80px;
+}
+
+.welcome-hero-txt-description {
+    font-size: 18px;
+    color: #ffffff;
+    padding-top: 30px;
 }
 
 .welcome-hero-txt h2 {
@@ -401,11 +411,10 @@ nav.navbar.bootsnav .navbar-toggle i {
 .welcome-hero-txt p {
     font-size: 18px;
     color: #fcfcfc;
-    margin-top: 25px;
 }
 
 .welcome-hero-serch-box {
-    margin-top: 78px;
+    margin-top: 25px;
     display: flex;
     padding: 0 15%;
 }
@@ -1091,10 +1100,8 @@ nav.navbar.bootsnav .navbar-toggle i {
     max-width: 630px;
 }
 
-.subscription-input-group .subscription-input-form {
+.subscription-input-form {
     display: inline-block;
-    width: 630px;
-    height: 60px;
     padding-left: 30px;
     font-size: 16px;
     color: #a5adb3;
@@ -1194,7 +1201,8 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .hm-footer-copyright {
-    padding: 40px 0;
+    padding-top: 40px;
+    padding-bottom: 20px;
     border-top: 1px solid #e1e5eb;
 }
 

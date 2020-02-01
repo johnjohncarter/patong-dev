@@ -2,17 +2,29 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
+use App\Models\ProductCategory;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
     public function index()
     {
-        return view('product.product_list');
+        $categories = ProductCategory::query()->get();
+        $products = Product::query()->get();
+        $response['categories'] = $categories;
+        $response['products'] = $products;
+        return view('product.product', $response);
     }
 
-    public function show($product_id)
+    public function show($category_id)
     {
-        return view('product.product');
+        $categories = ProductCategory::query()->get();
+        $products = Product::query()
+            ->where('category_id', $category_id)
+            ->get();
+        $response['categories'] = $categories;
+        $response['products'] = $products;
+        return view('product.product', $response);
     }
 }
