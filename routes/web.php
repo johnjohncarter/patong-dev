@@ -24,4 +24,5 @@ Route::get('product/{product_id}', 'ProductController@show');
 Route::get('product', 'ProductController@index');
 Route::get('block', 'BlockController@index');
 Route::get('contact', 'ContactController@index');
+Route::get('contact-list', 'ContactController@select');
 Route::post('new-contact', 'ContactController@create');

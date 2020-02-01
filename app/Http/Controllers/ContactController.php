@@ -37,6 +37,12 @@ class ContactController extends Controller
         return redirect('contact')->withSuccess('submit your contact successfully !!');
     }
 
+    public function select()
+    {
+        $contact = Contact::query()->get();
+        return view('contact_list', ['contacts' => $contact]);
+    }
+
     public function update(Request $request, $contact_id)
     {
         return view('contact');

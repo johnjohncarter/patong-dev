@@ -29,7 +29,7 @@
                         <li class="{{ request()->is('product*') ? 'active' : '' }}">
                             <a href="{{ url('product') }}">product</a>
                         </li>
-                        <li class="{{ request()->is('contact') ? 'active' : '' }}">
+                        <li class="{{ request()->is('contact') || request()->is('contact-list') ? 'active' : '' }}">
                             <a href="{{ url('contact') }}">contact</a>
                         </li>
                     </ul><!--/.nav -->

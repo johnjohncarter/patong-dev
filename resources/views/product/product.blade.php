@@ -6,7 +6,7 @@
     <section class="reviews">
         <div class="container" style="padding-top: 50px">
             <h2>Product List</h2>
-            <p>What our client say about us</p>
+            <p>all product ..</p>
         </div>
         <div class="container" style="padding: 30px 15px">
             <div class="row">
