@@ -15,7 +15,11 @@ class SearchController extends Controller
                 ->where('name_en', 'like', '%' . $search . '%')
                 ->orWhere('name_ch', 'like', '%' . $search . '%')
                 ->orWhere('name_th', 'like', '%' . $search . '%')
+                ->orWhere('name_en', 'like', '%' . strtolower($search) . '%')
+                ->orWhere('name_ch', 'like', '%' . strtolower($search) . '%')
                 ->orWhere('name_th', 'like', '%' . strtolower($search) . '%')
+                ->orWhere('name_en', 'like', '%' . strtoupper($search) . '%')
+                ->orWhere('name_ch', 'like', '%' . strtoupper($search) . '%')
                 ->orWhere('name_th', 'like', '%' . strtoupper($search) . '%')
                 ->get();
         } catch (\Exception $exception) {
