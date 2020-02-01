@@ -85,8 +85,8 @@
                             <div class="col-sm-12" style="padding-top: 15px">
                                 <textarea class="subscription-input-form"
                                           style="min-height: 150px"
-                                          name="detail">
-                                </textarea>
+                                          placeholder="Detail ..."
+                                          name="detail"></textarea>
                                 @error('detail')
                                 <span class="text-red" style="color: red">
                                     <i class="fa fa-times-circle-o"></i> The detail field is required.
