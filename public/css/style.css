@@ -123,6 +123,7 @@ html, body {
     -o-transition: 0.3s linear;
     transition: 0.3s linear;
 }
+
 .search-result-btn:hover {
     box-shadow: 0 5px 20px rgba(21, 19, 19, .4);
 }
@@ -161,7 +162,7 @@ html, body {
 }
 
 .subscription-input-form:hover {
-box-shadow: 0 5px 20px rgba(21, 19, 19, .4);
+    box-shadow: 0 5px 20px rgba(21, 19, 19, .4);
 }
 
 /* section-header */
@@ -841,11 +842,22 @@ nav.navbar.bootsnav .navbar-toggle i {
         8. Reviews
 --------------------------------------*/
 .reviews {
-
+    background: #f8fafb;
+    min-height: 84vh;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    color: black !important;
 }
 
 .reviews-content {
     margin-top: 36px;
+}
+
+.image-feedback {
+    padding: 15px;
+    max-width: 300px;
+    width: 100%;
+    height: auto
 }
 
 /*single-testimonial-box */

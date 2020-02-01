@@ -16,13 +16,9 @@ class Contact extends Model
      */
     protected $fillable = [
         'name',
+        'surname',
+        'title',
         'detail',
-        'address',
-        'sub_country',
-        'country',
-        'province',
-        'postcode',
-        'number_phone',
         'image_url',
     ];
 

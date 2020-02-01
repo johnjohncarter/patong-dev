@@ -1,11 +1,12 @@
 @extends('index')
+@section('title', 'home')
 
 @section('content')
     <!--welcome-hero start -->
     <section class="welcome-hero" style="height: 100vh; padding-top: 100px">
         <div class="container">
             <div class="welcome-hero-txt">
-                <h2>welcome to central online<br> that all you need </h2>
+                <h2>welcome to central online<br>  尚泰百货欢迎光临 </h2>
             </div>
 
             <form action="{{ url('search') }}" method="post" enctype="multipart/form-data">

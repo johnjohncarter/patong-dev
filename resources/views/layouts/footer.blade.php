@@ -4,13 +4,13 @@
         <div class="hm-footer-copyright">
             <div class="row">
                 <div class="col-sm-5">
-                    <p>
-                        &copy;copyright. designed and developed by <a href="https://www.themesine.com/">themesine</a>
-                    </p><!--/p-->
+                    <p>CENTRAL PATONG</p>
+                    <p>Central Department Store :Patong Branch 198/9 Rat Uthit 200 pi Rd; T.Patong   A.kathu  Phuket 83150</p>
+                    <p>Open Daily 10.30 a.m – 11.00 p.m</p>
                 </div>
                 <div class="col-sm-7">
                     <div class="footer-social">
-                        <span><i class="fa fa-phone"> +1  (222) 777 8888</i></span>
+                        <span><i class="fa fa-phone">Tel: +66(0)76600499</i></span>
                         <a href="#"><i class="fa fa-facebook"></i></a>
                         <a href="#"><i class="fa fa-twitter"></i></a>
                         <a href="#"><i class="fa fa-linkedin"></i></a>

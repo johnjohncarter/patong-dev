@@ -14,7 +14,7 @@
         rel="stylesheet">
 
     <!-- title of site -->
-    <title>Directory Landing Page</title>
+    <title>{{ config('app.name') }} | @yield('title')</title>
 
     <!-- For favicon png -->
     <link rel="shortcut icon" type="image/icon" href="{{ asset('logo/favicon.png') }}assets/logo/favicon.png"/>
@@ -68,6 +68,7 @@
 @include('layouts.header')
 
 @yield('content')
+
 @if (!request()->is('home'))
     @include('layouts.footer')
 @endif

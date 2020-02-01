@@ -1,7 +1,8 @@
 @extends('index')
+@section('title', 'search')
 
 @section('content')
-    <section class="reviews" style="background: #f8fafb; height: 100%; padding-top: 150px">
+    <section class="reviews" style="background: #f8fafb; height: 100%; padding-top: 150px; color: black">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -13,15 +14,15 @@
                 <div class="col-sm-1"></div>
                 <div class="col-sm-10">
                     <div class="search-input-group">
-                        <form class="" action="{{ url('search') }}" method="post" enctype="multipart/form-data">
+                        <form action="{{ url('search') }}" method="post" enctype="multipart/form-data">
                             {{ csrf_field() }}
                             <div class="row">
                                 <div class="col-sm-9">
-                                        <input type="text"
-                                               class="subscription-input-form"
-                                               value="{{ old('search') }}"
-                                               name="search"
-                                               placeholder="Ex: cosmetic jewelry watch ..."/>
+                                    <input type="text"
+                                           class="subscription-input-form"
+                                           value="{{ old('search') }}"
+                                           name="search"
+                                           placeholder="Ex: cosmetic jewelry watch ..."/>
                                 </div>
                                 <div class="col-sm-3">
                                     <button class="search-result-btn" type="submit">
@@ -47,13 +48,19 @@
                             </tr>
                             </thead>
                             <tbody>
-                            @foreach($products as $product)
+                            @if (count($products))
+                                @foreach($products as $product)
+                                    <tr>
+                                        <td style="padding: 15px">{{ $product['name_en'] }}</td>
+                                        <td style="padding: 15px">{{ $product['name_ch'] }}</td>
+                                        <td style="padding: 15px">{{ $product['name_th'] }}</td>
+                                    </tr>
+                                @endforeach
+                            @else
                                 <tr>
-                                    <td style="padding: 15px">{{ $product['name_en'] }}</td>
-                                    <td style="padding: 15px">{{ $product['name_ch'] }}</td>
-                                    <td style="padding: 15px">{{ $product['name_th'] }}</td>
+                                    <td style="padding: 15px" colspan="3">Search not fount !!</td>
                                 </tr>
-                            @endforeach
+                            @endif
                             </tbody>
                         </table>
                     </div>

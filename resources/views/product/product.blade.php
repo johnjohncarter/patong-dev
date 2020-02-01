@@ -1,8 +1,9 @@
 @extends('index')
+@section('title', 'product')
 
 @section('content')
     <!--reviews start -->
-    <section class="reviews" style="background: #f8fafb; min-height: 84vh; padding-top: 100px; color: black!important;">
+    <section class="reviews">
         <div class="container" style="padding-top: 50px">
             <h2>Product List</h2>
             <p>What our client say about us</p>
