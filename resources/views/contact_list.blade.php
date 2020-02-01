@@ -11,7 +11,7 @@
         <div class="container" style="padding: 30px 15px">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="table-responsive table-border">
+                    <div class="table-responsive table-border" style="overflow-x:auto;">
                         <table class="table table-hover table-striped">
                             <thead>
                             <tr>

@@ -38,7 +38,7 @@
             <div class="row" style="padding: 25px 0">
                 <div class="col-sm-1"></div>
                 <div class="col-sm-10">
-                    <div class="table-responsive table-border">
+                    <div class="table-responsive table-border" style="overflow-x:auto;">
                         <table class="table table-hover table-striped">
                             <thead>
                             <tr>

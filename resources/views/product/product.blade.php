@@ -25,7 +25,7 @@
                     </div>
                 </div>
                 <div class="col-sm-9">
-                    <div class="table-responsive table-border">
+                    <div class="table-responsive table-border" style="overflow-x:auto;">
                         <table class="table table-hover table-striped">
                             <thead>
                             <tr>
