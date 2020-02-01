@@ -1,5 +1,5 @@
 <!-- top-area Start -->
-<section class="top-area" style="position: absolute; z-index: 1000; width: 100%;">
+<section class="top-area" style="position: absolute; z-index: 2; width: 100%;">
     <div class="header-area">
         <!-- Start Navigation -->
         <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy" data-minus-value-desktop="70"
@@ -9,7 +9,10 @@
 
                 <!-- Start Header Navigation -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                    <button type="button"
+                            class="navbar-toggle"
+                            data-toggle="collapse"
+                            data-target="#navbar-menu">
                         <i class="fa fa-bars"></i>
                     </button>
 
