@@ -51,7 +51,7 @@
                             @if (count($products))
                                 @foreach($products as $product)
                                     <tr>
-                                        <td style="padding: 15px">{{ $product['name_en'] }}</td>
+                                        <td style="padding: 15px">{{ ucfirst($product['name_en']) }}</td>
                                         <td style="padding: 15px">{{ $product['name_ch'] }}</td>
                                         <td style="padding: 15px">{{ $product['name_th'] }}</td>
                                     </tr>
